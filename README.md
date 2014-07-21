@@ -8,8 +8,8 @@ An attemp to do some test driven development (TDD) in Swift with [KIF](https://g
 * [CocoaPods](http://cocoapods.org/)
 
 <pre>
-$ sudo gem install cocoapods
-$ pod install
+~/Swift-TDD $ sudo gem install cocoapods
+~/Swift-TDD $ pod install
 </pre>
 
 ### Note
