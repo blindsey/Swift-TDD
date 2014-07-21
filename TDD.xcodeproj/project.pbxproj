@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1325048D197CFE99007CCC64 /* SwiftTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1325048C197CFE99007CCC64 /* SwiftTestCase.swift */; };
 		135FE39F197CFDCB00958964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135FE39E197CFDCB00958964 /* AppDelegate.swift */; };
 		135FE3A1197CFDCB00958964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135FE3A0197CFDCB00958964 /* ViewController.swift */; };
 		135FE3A4197CFDCB00958964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135FE3A2197CFDCB00958964 /* Main.storyboard */; };
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		0F3BA4BCF1B84F5FBD5E2B22 /* libPods-TDDTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDDTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13250489197CFE62007CCC64 /* TDDTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		1325048C197CFE99007CCC64 /* SwiftTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTestCase.swift; sourceTree = "<group>"; };
 		135FE399197CFDCB00958964 /* TDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		135FE39D197CFDCB00958964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		135FE39E197CFDCB00958964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 		135FE3AE197CFDCB00958964 /* TDDTests */ = {
 			isa = PBXGroup;
 			children = (
-				1325048C197CFE99007CCC64 /* SwiftTestCase.swift */,
 				135FE3B1197CFDCB00958964 /* TDDTests.swift */,
 				135FE3AF197CFDCB00958964 /* Supporting Files */,
 				13250489197CFE62007CCC64 /* TDDTests-Bridging-Header.h */,
@@ -272,7 +269,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				135FE3B2197CFDCB00958964 /* TDDTests.swift in Sources */,
-				1325048D197CFE99007CCC64 /* SwiftTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
