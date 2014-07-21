@@ -27,3 +27,4 @@ Solved by doing the following:
 }
 </pre>
 3. chmod 444 /[Long-path-goes-here]/all-product-headers.yaml
+4. Xcode will complain about write-file but your tests will run
