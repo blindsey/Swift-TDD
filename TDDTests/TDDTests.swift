@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Nimble
+import XCTest
 
 extension KIFTestCase {
     func tester(_ file : String = __FILE__, _ line : Int = __LINE__) -> KIFUITestActor {
@@ -30,16 +30,16 @@ class TDDTests: KIFTestCase {
     func testFahrenheit() {
         tester().enterText("32", intoViewWithAccessibilityLabel:"Degrees Fahrenheit")
         let field = tester().waitForViewWithAccessibilityLabel("Degrees Centigrade") as UITextField
-        expect(field.text).to(equal(""))
+        XCTAssertEqual(field.text!, "")
         tester().tapViewWithAccessibilityLabel("Convert")
-        expect(field.text).to(equal("0.0"))
+        XCTAssertEqual(field.text!, "0.0")
     }
 
     func testCentigrade() {
         tester().enterText("100", intoViewWithAccessibilityLabel:"Degrees Centigrade")
         let field = tester().waitForViewWithAccessibilityLabel("Degrees Fahrenheit") as UITextField
-        expect(field.text).to(equal(""))
+        XCTAssertEqual(field.text!, "")
         tester().tapViewWithAccessibilityLabel("Convert")
-        expect(field.text).to(equal("212.0"))
+        XCTAssertEqual(field.text!, "212.0")
     }
 }
