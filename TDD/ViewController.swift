@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
                             
-    @IBOutlet var centigradeField: UITextField
-    @IBOutlet var fahrenheitField: UITextField
+    @IBOutlet weak var centigradeField: UITextField!
+    @IBOutlet weak var fahrenheitField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
